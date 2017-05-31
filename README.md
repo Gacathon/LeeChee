@@ -1,5 +1,7 @@
 # LeeChee
-Cherry 1800 Keyboard layout
+Cherry 1800 Keyboard layout.
+Include usb hub,usb sound card,speaker.
+You need modify the outer casing.
 # BUG
-mode change have some problem.
-your can jmper it.
+Mode change have some problem.
+You can jmper it.
