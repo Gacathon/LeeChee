@@ -1,0 +1,43 @@
+(module 1800:USB_A (layer F.Cu) (tedit 58FC2D94)
+  (descr "USB A connector")
+  (tags "USB USB_A")
+  (fp_text reference DOWN3 (at -3.556 -2.35) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value USB_A (at 0.284 7.44) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user D+ (at 1.0668 2.54 270) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user D- (at -0.9652 2.54 270) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user GND (at 3.6068 2.54 270) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user VCC (at -3.5052 2.54 270) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -8.856 13.2) (end -8.856 -1.4) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 8.856 -1.4) (end 8.856 13.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -8.856 13.2) (end 8.856 13.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -8.856 -1.4) (end 8.856 -1.4) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 7.494 -1.14) (end 7.494 1.19) (layer F.SilkS) (width 0.12))
+  (fp_line (start -7.496 -1.14) (end -7.496 0.98) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.494 -1.14) (end -7.496 -1.14) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.494 12.95) (end -7.496 12.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start 7.494 4.15) (end 7.494 12.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start -7.496 4.35) (end -7.496 12.95) (layer F.SilkS) (width 0.12))
+  (pad 4 thru_hole circle (at 3.5 0 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 1 0 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -1 0 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -3.5 0 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 5 thru_hole oval (at 7.5 2.8 270) (size 4.5 3) (drill oval 3 1.2) (layers *.Cu *.Mask))
+  (pad 5 thru_hole oval (at -7.5 2.8 270) (size 4.5 3) (drill oval 3 1.2) (layers *.Cu *.Mask))
+  (model mywrl.3dshapes/usb_a_2.0_dip.wrl
+    (at (xyz 0 -0.233 0.166))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 180 0 180))
+  )
+)

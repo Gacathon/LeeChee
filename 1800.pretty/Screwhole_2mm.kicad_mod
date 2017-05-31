@@ -1,0 +1,9 @@
+(module 1800:Screwhole_2mm locked (layer F.Cu) (tedit 58FC8A29)
+  (fp_text reference REF** (at 0 -2.7432) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Screwhole_2mm (at 0 2.8956) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 0 thru_hole circle (at 0.491139 0.057176) (size 5 5) (drill oval 4 2.5) (layers *.Cu *.Mask))
+)

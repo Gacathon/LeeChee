@@ -1,0 +1,9 @@
+(module 1800:HOLE_6mm locked (layer F.Cu) (tedit 58E396FC)
+  (fp_text reference HOLE3 (at 0 -4.2672) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value HOLE (at 0 4.572) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 0 thru_hole circle (at 0 0) (size 6.5 6.5) (drill 6) (layers *.Cu))
+)

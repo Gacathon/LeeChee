@@ -1,0 +1,12 @@
+(module 1800:MX_FRAME_3X (layer F.Cu) (tedit 58FC23AE)
+  (fp_text reference MX_FRAME_SPC_3 (at 0 -2.1336) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MX_FRAME_HOLE (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -19.05 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu))
+  (pad "" np_thru_hole circle (at -19.05 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
+  (pad "" np_thru_hole circle (at 19.05 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
+  (pad "" np_thru_hole circle (at 19.05 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu))
+)
