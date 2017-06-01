@@ -1,3 +1,5 @@
+# Lisence
+CC BY-NC-SA 3.0
 # LeeChee
 Cherry 1800 Keyboard layout.
 Include usb hub,usb sound card,speaker.
